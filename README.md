@@ -1,117 +1,101 @@
-Queue Visualizer — Data Structure Simulation
+📚 Queue Visualizer — Data Structure Simulation
 
-Visualisasi interaktif dari struktur data Queue menggunakan Python GUI.
-Aplikasi ini menampilkan beberapa studi kasus nyata penggunaan Queue untuk membantu memahami konsep FIFO, Circular Queue, Priority Queue, dan Breadth-First Search (BFS) secara visual.
+Visualisasi interaktif struktur data Queue menggunakan Python GUI.
+Project ini dibuat untuk membantu memahami konsep FIFO, Circular Queue, Priority Queue, dan Breadth-First Search (BFS) melalui simulasi yang mudah dipahami.
 
-Project ini dibuat sebagai media pembelajaran untuk mata kuliah Struktur Data.
+Aplikasi ini menampilkan 5 studi kasus penggunaan Queue dalam satu program.
 
-Overview
+🎯 Tujuan Project
 
-Queue merupakan salah satu struktur data dasar dalam ilmu komputer dengan prinsip FIFO (First In, First Out).
-Dalam project ini, konsep queue diimplementasikan ke dalam beberapa simulasi nyata seperti antrian printer, permainan hot potato, sistem prioritas rumah sakit, traversal graf, dan antrian bandara.
+Project ini dibuat untuk:
 
-Aplikasi ini dibuat menggunakan GUI Python sehingga pengguna dapat berinteraksi langsung dengan simulasi.
+📖 Membantu memahami konsep Queue
+🧠 Menjelaskan implementasi queue dalam berbagai kasus nyata
+🖥️ Menyediakan visualisasi interaktif untuk pembelajaran struktur data
+🎓 Digunakan sebagai project tugas mata kuliah Struktur Data
+🚀 Features
 
-Teknologi GUI yang digunakan adalah Tkinter.
+Aplikasi ini memiliki 5 simulasi utama:
 
-Features
-
-Aplikasi menyediakan 5 simulasi Queue dalam satu program:
-
-Printer Queue
+🖨️ Printer Queue
 
 Simulasi antrian dokumen pada printer bersama.
 
 Fitur:
 
-Menambahkan dokumen ke antrian
-Mencetak dokumen sesuai urutan
-Reset antrian
-Statistik dokumen yang telah dicetak
+➕ Menambahkan dokumen ke antrian
+🖨️ Mencetak dokumen sesuai urutan
+🔄 Reset antrian
+📊 Statistik jumlah dokumen yang dicetak
 
 Konsep yang digunakan:
 
-FIFO Queue
-Hot Potato (Circular Queue)
+FIFO Queue (First In First Out)
+🥔 Hot Potato (Circular Queue)
 
-Simulasi permainan Hot Potato di mana objek diputar di antara pemain hingga satu pemain tereliminasi.
+Simulasi permainan Hot Potato dimana objek diputar di antara pemain.
 
 Fitur:
 
-Menambahkan pemain
-Rotasi pemain (oper kentang)
-Eliminasi pemain
+👥 Menambahkan pemain
+🔁 Mengoper kentang antar pemain
+❌ Eliminasi pemain
 
 Konsep yang digunakan:
 
 Circular Queue
-Rumah Sakit (Priority Queue)
+🏥 Rumah Sakit (Priority Queue)
 
-Simulasi sistem antrian pasien berdasarkan tingkat prioritas.
+Simulasi antrian pasien berdasarkan tingkat prioritas.
 
 Fitur:
 
-Menambahkan pasien
-Menentukan prioritas pasien
-Memanggil pasien dengan prioritas tertinggi
+➕ Menambahkan pasien
+⚠️ Mengatur prioritas pasien
+📢 Memanggil pasien dengan prioritas tertinggi
 
 Konsep yang digunakan:
 
 Priority Queue
-BFS Graph Traversal
+🌐 BFS Graph Traversal
 
 Simulasi algoritma Breadth-First Search pada graf.
 
 Fitur:
 
-Menjalankan traversal BFS
-Menampilkan urutan node yang dikunjungi
+▶️ Menjalankan BFS traversal
+📍 Menampilkan urutan node yang dikunjungi
 
 Konsep yang digunakan:
 
-Queue pada algoritma BFS
-Airport Queue
+Queue dalam algoritma BFS
+✈️ Airport Queue
 
 Simulasi antrian penumpang pada loket bandara.
 
 Fitur:
 
-Menambahkan penumpang
-Melayani penumpang sesuai urutan
+👤 Menambahkan penumpang
+🎫 Melayani penumpang sesuai urutan
 
 Konsep yang digunakan:
 
 FIFO Queue
-Screenshots
-
-Contoh tampilan aplikasi:
-
-Tab Printer Queue
-Tab Hot Potato
-Tab Rumah Sakit
-Tab BFS Graph
-Tab Bandara
-
-(Screenshot aplikasi dapat ditambahkan di sini)
-
-Tech Stack
+🧰 Tech Stack
 
 Project ini menggunakan teknologi berikut:
 
-Python 3
-Tkinter
-Python Standard Library (collections.deque)
-Project Structure
-
-Struktur folder project:
-
+🐍 Python 3
+🖥️ Tkinter
+📦 Python Standard Library (collections.deque)
+📂 Project Structure
 queue-visualizer
 │
 ├── main.py
 ├── README.md
 └── requirements.txt
 
-Jika project diperluas, struktur dapat menjadi:
+Jika project berkembang, struktur bisa menjadi:
 
 queue-visualizer
 │
@@ -127,7 +111,7 @@ queue-visualizer
 │   └── screenshots
 │
 └── README.md
-Installation
+⚙️ Installation
 
 Clone repository:
 
@@ -136,43 +120,45 @@ git clone https://github.com/username/queue-visualizer.git
 Masuk ke folder project:
 
 cd queue-visualizer
-Usage
+▶️ Usage
 
-Jalankan program dengan Python:
+Jalankan program:
 
 python main.py
 
-Setelah program berjalan, pengguna dapat memilih simulasi melalui tab:
+Setelah program berjalan, pilih simulasi melalui tab:
 
-Printer
-Hot Potato
-Rumah Sakit
-BFS Graph
-Bandara
-Learning Objectives
+🖨️ Printer
+🥔 Hot Potato
+🏥 Rumah Sakit
+🌐 BFS Graph
+✈️ Bandara
+🧠 Konsep Struktur Data yang Dipelajari
 
-Project ini dibuat untuk membantu memahami:
+Project ini membantu memahami:
 
-Konsep Queue (FIFO)
+FIFO Queue
 Circular Queue
 Priority Queue
-Implementasi queue dalam Breadth-First Search
-Penggunaan queue dalam simulasi dunia nyata
-Contribution
+Breadth-First Search (BFS)
+Implementasi Queue dalam sistem nyata
+🤝 Contribution
 
 Kontribusi sangat terbuka.
 
-Jika ingin berkontribusi:
+Langkah untuk berkontribusi:
 
-Fork repository
-Buat branch baru
-Commit perubahan
-Buat pull request
-Author
+1️⃣ Fork repository
+2️⃣ Buat branch baru
+3️⃣ Commit perubahan
+4️⃣ Buat Pull Request
+
+👨‍💻 Author
 
 Muhammad Dava Desvilano
+
 Project: Queue Visualizer — Data Structure Simulation
 
-License
+📜 License
 
-Project ini dibuat untuk tujuan pembelajaran dan dapat digunakan secara bebas untuk keperluan akademik.
+Project ini dibuat untuk tujuan pembelajaran dan akademik.
